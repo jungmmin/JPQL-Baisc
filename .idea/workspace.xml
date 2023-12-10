@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc8dc352-04a6-4ea5-a17a-24d41f59da1e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/jpql/MemberDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/jpql/jpqlList/JpqlPaging.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/jpql/jpqlList/JpqlTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/jpql/jpqlList/JpqlTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jpql/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpql/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jpql/MemberDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpql/MemberDTO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,21 +59,55 @@
       <recent name="jpql" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="JpaMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jpql.JpaMain" />
+  <component name="RunManager" selected="JUnit.JpqlPaging.pagingTest">
+    <configuration name="JpqlPaging" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JPQL-Basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jpql.*" />
+          <option name="PATTERN" value="jpql.jpqlList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="jpql.jpqlList" />
+      <option name="MAIN_CLASS_NAME" value="jpql.jpqlList.JpqlPaging" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JpqlSelect.name" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JpqlPaging.pagingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JPQL-Basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jpql.jpqlList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jpql.jpqlList" />
+      <option name="MAIN_CLASS_NAME" value="jpql.jpqlList.JpqlPaging" />
+      <option name="METHOD_NAME" value="pagingTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JpqlPaging.paramBindingEx" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JPQL-Basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jpql.jpqlList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jpql.jpqlList" />
+      <option name="MAIN_CLASS_NAME" value="jpql.jpqlList.JpqlPaging" />
+      <option name="METHOD_NAME" value="paramBindingEx" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JpqlSelect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JPQL-Basic" />
       <extension name="coverage">
         <pattern>
@@ -82,8 +117,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="jpql.jpqlList" />
       <option name="MAIN_CLASS_NAME" value="jpql.jpqlList.JpqlSelect" />
-      <option name="METHOD_NAME" value="name" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -106,9 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JpqlPaging.pagingTest" />
+        <item itemvalue="JUnit.JpqlPaging.paramBindingEx" />
+        <item itemvalue="JUnit.JpqlPaging" />
+        <item itemvalue="JUnit.JpqlSelect" />
         <item itemvalue="JUnit.JpqlSelect.selectList" />
-        <item itemvalue="JUnit.JpqlSelect.name" />
-        <item itemvalue="Application.JpaMain" />
       </list>
     </recent_temporary>
   </component>
