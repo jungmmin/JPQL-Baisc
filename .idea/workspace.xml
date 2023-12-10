@@ -5,17 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc8dc352-04a6-4ea5-a17a-24d41f59da1e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jpql/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jpql/JpaMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jpql/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jpql/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jpql/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jpql/Team.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/jpql/jpqlList/JpqlMethodTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jpql/MemberDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/jpql/jpqlList/JpqlTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/jpql/jpqlList/JpqlTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -48,7 +40,8 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "develop",
-    "last_opened_file_path": "/Users/macbookpro/Desktop/Study/jpaStudy/JPQL-Basic/src/main/resources"
+    "last_opened_file_path": "/Users/macbookpro/Desktop/Study/jpaStudy/JPQL-Basic/src/main/resources",
+    "settings.editor.selected.configurable": "editor.preferences.completion"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -65,7 +58,7 @@
       <recent name="jpql" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.JpqlMethodTest.name">
+  <component name="RunManager">
     <configuration name="JpaMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="jpql.JpaMain" />
       <module name="JPQL-Basic" />
@@ -79,7 +72,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JpqlMethodTest.name" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JpqlSelect.name" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JPQL-Basic" />
       <extension name="coverage">
         <pattern>
@@ -88,8 +81,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="jpql.jpqlList" />
-      <option name="MAIN_CLASS_NAME" value="jpql.jpqlList.JpqlMethodTest" />
+      <option name="MAIN_CLASS_NAME" value="jpql.jpqlList.JpqlSelect" />
       <option name="METHOD_NAME" value="name" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JpqlSelect.selectList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JPQL-Basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jpql.jpqlList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jpql.jpqlList" />
+      <option name="MAIN_CLASS_NAME" value="jpql.jpqlList.JpqlSelect" />
+      <option name="METHOD_NAME" value="selectList" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -97,7 +106,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.JpqlMethodTest.name" />
+        <item itemvalue="JUnit.JpqlSelect.selectList" />
+        <item itemvalue="JUnit.JpqlSelect.name" />
         <item itemvalue="Application.JpaMain" />
       </list>
     </recent_temporary>
@@ -112,5 +122,9 @@
       <updated>1701506610095</updated>
     </task>
     <servers />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
