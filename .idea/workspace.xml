@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cc8dc352-04a6-4ea5-a17a-24d41f59da1e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jpql/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpql/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jpql/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpql/Team.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/jpql/jpqlList/JpqlPaging.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/jpql/jpqlList/JpqlTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/jpql/jpqlList/JpqlTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/jpql/jpqlList/JpqlTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,22 +57,7 @@
       <recent name="jpql" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.JpqlTest.joinTest">
-    <configuration name="JpqlSelect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JPQL-Basic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="jpql.jpqlList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="jpql.jpqlList" />
-      <option name="MAIN_CLASS_NAME" value="jpql.jpqlList.JpqlSelect" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.JpqlTest.caseTest">
     <configuration name="JpqlTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JPQL-Basic" />
       <extension name="coverage">
@@ -86,6 +69,22 @@
       <option name="PACKAGE_NAME" value="jpql.jpqlList" />
       <option name="MAIN_CLASS_NAME" value="jpql.jpqlList.JpqlTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JpqlTest.caseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JPQL-Basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jpql.jpqlList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jpql.jpqlList" />
+      <option name="MAIN_CLASS_NAME" value="jpql.jpqlList.JpqlTest" />
+      <option name="METHOD_NAME" value="caseTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -140,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JpqlTest.caseTest" />
         <item itemvalue="JUnit.JpqlTest.joinTest" />
         <item itemvalue="JUnit.JpqlTest.pagingTest" />
         <item itemvalue="JUnit.JpqlTest.paramBindingEx" />
         <item itemvalue="JUnit.JpqlTest" />
-        <item itemvalue="JUnit.JpqlSelect" />
       </list>
     </recent_temporary>
   </component>

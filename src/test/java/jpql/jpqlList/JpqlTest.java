@@ -94,4 +94,54 @@ public class JpqlTest {
         }
 
     }
+
+    @Test
+    @DisplayName("케이스 예시")
+    void caseTest() {
+        tx.begin();
+        try {
+            // 멤버 생성
+            Member member = new Member();
+            member.setUsername("member1");
+            member.setAge(10);
+            em.persist(member);
+
+            em.flush();
+            em.clear();
+
+
+            // 단순 CASE 식
+//          select
+//              case t.name
+//                  when 'teamA' then '110%'
+//                  when 'teamB' then '120%'
+//                  else '105%
+//              end
+//          from Team t
+
+            // 기본 CASE 식
+//            String query = "select " +
+//                            "case when m.age <= 10 then '학생요금' " +
+//                            "     when m.age >= 60 then '경로요금' " +
+//                            "   else '일반요금' end " +
+//                            "from Member m";
+
+            // COALESCE, NULLIF
+//            String query = "select coalesce(m.username, '이름 없는 회원') from Member m";
+            String query = "select nullif(m.username, 'member1') from Member m";
+
+            List<String> resultList = em.createQuery(query, String.class).getResultList();
+            for (String s : resultList) {
+                System.out.println("s = " + s);
+            }
+
+            // 롤백으로 데이터 초기화
+            tx.rollback();
+        } catch (Exception e) {
+            tx.rollback();
+        }finally {
+            em.close();
+        }
+
+    }
 }
