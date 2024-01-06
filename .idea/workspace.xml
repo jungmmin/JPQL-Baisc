@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc8dc352-04a6-4ea5-a17a-24d41f59da1e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dialect/MyH2Dialect.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/jpql/jpqlList/JpqlTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/jpql/jpqlList/JpqlTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
